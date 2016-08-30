@@ -134,7 +134,7 @@ public class Scrapper {
 		}
 		
 		try {
-			mapper.writeValue(new File("h:\\file.json"), accountList);
+			mapper.writeValue(new File("h:\\workspace\\file.json"), accountList);
 		} catch (JsonGenerationException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
