@@ -17,8 +17,8 @@ public class HDFCBase {
 		
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		WebDriverWait wait = new WebDriverWait(driver, 20);
-		String username = "52913630";
-		String password = "Shubh$91";
+		String username = "********";
+		String password = "********";
 		
 		js.executeScript("window.location='https://netbanking.hdfcbank.com/netbanking'");
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("frame[name='login_page']")));
